@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Mysql增删改查基本语法</title>
+    <url>/2020/02/29/Mysql%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="Mysql增删改查基本语法"><a href="#Mysql增删改查基本语法" class="headerlink" title="Mysql增删改查基本语法"></a>Mysql增删改查基本语法</h1><a id="more"></a>
+<h2 id="创建表"><a href="#创建表" class="headerlink" title="创建表"></a>创建表</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">CREATE TABLE 表名称</span><br><span class="line">(</span><br><span class="line">列名称1 数据类型,</span><br><span class="line">列名称2 数据类型,</span><br><span class="line">列名称3 数据类型,</span><br><span class="line">....</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+
+<h2 id="增加数据"><a href="#增加数据" class="headerlink" title="增加数据"></a>增加数据</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">INSERT INTO 表名称 VALUES (值1, 值2,....)</span><br></pre></td></tr></table></figure>
+
+<h2 id="删除数据"><a href="#删除数据" class="headerlink" title="删除数据"></a>删除数据</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">DELETE FROM 表名称 </span><br><span class="line">WHERE 列名称 &#x3D; 值</span><br></pre></td></tr></table></figure>
+
+<h2 id="修改数据"><a href="#修改数据" class="headerlink" title="修改数据"></a>修改数据</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">UPDATE 表名称 </span><br><span class="line">SET 列名称 &#x3D; 新值 </span><br><span class="line">WHERE 列名称 &#x3D; 某值</span><br></pre></td></tr></table></figure>
+
+<h2 id="查询数据"><a href="#查询数据" class="headerlink" title="查询数据"></a>查询数据</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">SELECT 列名称 FROM 表名称</span><br><span class="line">(WHERE 列名称 &#x3D; 值)</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Mysql语法</category>
+      </categories>
+      <tags>
+        <tag>Mysql</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Spring Boot基础学习</title>
+    <url>/2020/02/27/Spring-Boot%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h1 id="一、Spring-Boot入门"><a href="#一、Spring-Boot入门" class="headerlink" title="一、Spring Boot入门"></a>一、Spring Boot入门</h1><h2 id="1、Spring-Boot简介"><a href="#1、Spring-Boot简介" class="headerlink" title="1、Spring Boot简介"></a>1、Spring Boot简介</h2><blockquote>
+<p>简化Spring应用开发的一个框架；<br>整个Spring技术栈的一个大整合；<br>J2EE开发的一站式解决方案；</p>
+</blockquote>
+<a id="more"></a>
+
+<h2 id="2、微服务"><a href="#2、微服务" class="headerlink" title="2、微服务"></a>2、微服务</h2><p>2014，martin fowler<br>微服务：架构风格<br>一个应用应该是一组小型服务；可以通过HTTP的方式进行互通；</p>
+<p>每一个功能元素最终都是一个可独立替换和独立升级的软件单元；</p>
+<p><a href="https://martinfowler.com/articles/microservices.html#MicroservicesAndSoa" target="_blank" rel="noopener">详细参照微服务文档</a></p>
+<blockquote>
+<p><em>持续更新</em></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Spring Boot基础</category>
+      </categories>
+      <tags>
+        <tag>Spring Boot</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown基本使用</title>
     <url>/2020/02/19/Markdown%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<h1 id="Markdown的基本使用"><a href="#Markdown的基本使用" class="headerlink" title="Markdown的基本使用"></a>Markdown的基本使用</h1><p><em>Tip：使用的各类符号后面需要加一个空格再跟内容</em></p>
@@ -73,17 +115,6 @@
       </categories>
       <tags>
         <tag>-Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>测试文章</title>
-    <url>/2020/02/16/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<h1 id="测试文章"><a href="#测试文章" class="headerlink" title="测试文章"></a>测试文章</h1><h2 id="第一篇文章"><a href="#第一篇文章" class="headerlink" title="第一篇文章"></a>第一篇文章</h2><a id="more"></a>]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>-导航 -分享</tag>
       </tags>
   </entry>
 </search>
