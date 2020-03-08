@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>JS定时器setTimeout和setInterval的使用</title>
+    <url>/2020/03/08/JS%E5%AE%9A%E6%97%B6%E5%99%A8setTimeout%E5%92%8CsetInterval%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<h2 id="setTimeout和setInterval的使用及区别"><a href="#setTimeout和setInterval的使用及区别" class="headerlink" title="setTimeout和setInterval的使用及区别"></a>setTimeout和setInterval的使用及区别</h2><h3 id="setTimeout"><a href="#setTimeout" class="headerlink" title="setTimeout"></a>setTimeout</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">setTimeout(function()&#123;</span><br><span class="line">    执行功能</span><br><span class="line">&#125;,时间间隔);</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<h3 id="setInterval"><a href="#setInterval" class="headerlink" title="setInterval"></a>setInterval</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">setInterval(function()&#123;</span><br><span class="line">    执行功能</span><br><span class="line">&#125;,时间间隔);</span><br></pre></td></tr></table></figure>
+
+<h3 id="两者联系与区别"><a href="#两者联系与区别" class="headerlink" title="两者联系与区别"></a>两者联系与区别</h3><blockquote>
+<p>setTimeout在时间间隔之后执行一次功能函数，其运用在延迟一段时间，再进行某项操作。<br>setInterval为每个时间间隔后，都将执行功能函数，常用于刷新表达式。<br>setInterval会自动重复，而setTimeout不会重复</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>-JS -setTimeout -setInterval</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Cookie和Session的区别</title>
     <url>/2020/03/03/Cookie%E5%92%8CSession%E7%9A%84%E5%8C%BA%E5%88%AB/</url>
     <content><![CDATA[<h2 id="Cookie和Session的区别"><a href="#Cookie和Session的区别" class="headerlink" title="Cookie和Session的区别"></a>Cookie和Session的区别</h2><ul>

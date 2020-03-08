@@ -20,20 +20,20 @@
     var CONFIG = {"hostname":"www.mcblog.net.cn","root":"/","scheme":"Pisces","version":"7.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="欢迎来到CLSG_MC的个人博客！">
-<meta property="og:type" content="website">
-<meta property="og:title" content="标签">
-<meta property="og:url" content="http://www.mcblog.net.cn/tags/index.html">
+  <meta name="description" content="setTimeout和setInterval的使用及区别setTimeout123setTimeout(function()&amp;#123;    执行功能&amp;#125;,时间间隔);">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JS定时器setTimeout和setInterval的使用">
+<meta property="og:url" content="http://www.mcblog.net.cn/2020/03/08/JS%E5%AE%9A%E6%97%B6%E5%99%A8setTimeout%E5%92%8CsetInterval%E7%9A%84%E4%BD%BF%E7%94%A8/index.html">
 <meta property="og:site_name" content="Cslg Mc&#39;s Blog">
-<meta property="og:description" content="欢迎来到CLSG_MC的个人博客！">
+<meta property="og:description" content="setTimeout和setInterval的使用及区别setTimeout123setTimeout(function()&amp;#123;    执行功能&amp;#125;,时间间隔);">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-02-15T10:44:47.000Z">
-<meta property="article:modified_time" content="2020-02-15T10:46:30.151Z">
+<meta property="article:published_time" content="2020-03-08T06:28:41.000Z">
+<meta property="article:modified_time" content="2020-03-08T06:37:20.627Z">
 <meta property="article:author" content="CSLG MC">
-<meta property="article:tag" content="博客 IT">
+<meta property="article:tag" content="-JS -setTimeout -setInterval">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://www.mcblog.net.cn/tags/">
+<link rel="canonical" href="http://www.mcblog.net.cn/2020/03/08/JS%E5%AE%9A%E6%97%B6%E5%99%A8setTimeout%E5%92%8CsetInterval%E7%9A%84%E4%BD%BF%E7%94%A8/">
 
 
 <script id="page-configurations">
@@ -41,12 +41,11 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: false
+    isPost: true
   };
 </script>
 
-  <title>标签 | Cslg Mc's Blog
-  </title>
+  <title>JS定时器setTimeout和setInterval的使用 | Cslg Mc's Blog</title>
   
 
 
@@ -179,52 +178,136 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
           <div class="content">
             
 
   <div class="posts-expand">
-    
-    
-    
-    <div class="post-block" lang="zh-CN">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://www.mcblog.net.cn/2020/03/08/JS%E5%AE%9A%E6%97%B6%E5%99%A8setTimeout%E5%92%8CsetInterval%E7%9A%84%E4%BD%BF%E7%94%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/head.jpg">
+      <meta itemprop="name" content="CSLG MC">
+      <meta itemprop="description" content="欢迎来到CLSG_MC的个人博客！">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cslg Mc's Blog">
+    </span>
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          JS定时器setTimeout和setInterval的使用
+        </h1>
 
-<h1 class="post-title" itemprop="name headline">标签
-</h1>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
 
-<div class="post-meta">
+              <time title="创建时间：2020-03-08 14:28:41 / 修改时间：14:37:20" itemprop="dateCreated datePublished" datetime="2020-03-08T14:28:41+08:00">2020-03-08</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/JavaScript/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span id="/2020/03/08/JS%E5%AE%9A%E6%97%B6%E5%99%A8setTimeout%E5%92%8CsetInterval%E7%9A%84%E4%BD%BF%E7%94%A8/" class="post-meta-item leancloud_visitors" data-flag-title="JS定时器setTimeout和setInterval的使用" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/03/08/JS%E5%AE%9A%E6%97%B6%E5%99%A8setTimeout%E5%92%8CsetInterval%E7%9A%84%E4%BD%BF%E7%94%A8/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/03/08/JS%E5%AE%9A%E6%97%B6%E5%99%A8setTimeout%E5%92%8CsetInterval%E7%9A%84%E4%BD%BF%E7%94%A8/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>266</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="setTimeout和setInterval的使用及区别"><a href="#setTimeout和setInterval的使用及区别" class="headerlink" title="setTimeout和setInterval的使用及区别"></a>setTimeout和setInterval的使用及区别</h2><h3 id="setTimeout"><a href="#setTimeout" class="headerlink" title="setTimeout"></a>setTimeout</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">setTimeout(function()&#123;</span><br><span class="line">    执行功能</span><br><span class="line">&#125;,时间间隔);</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<h3 id="setInterval"><a href="#setInterval" class="headerlink" title="setInterval"></a>setInterval</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">setInterval(function()&#123;</span><br><span class="line">    执行功能</span><br><span class="line">&#125;,时间间隔);</span><br></pre></td></tr></table></figure>
+
+<h3 id="两者联系与区别"><a href="#两者联系与区别" class="headerlink" title="两者联系与区别"></a>两者联系与区别</h3><blockquote>
+<p>setTimeout在时间间隔之后执行一次功能函数，其运用在延迟一段时间，再进行某项操作。<br>setInterval为每个时间间隔后，都将执行功能函数，常用于刷新表达式。<br>setInterval会自动重复，而setTimeout不会重复</p>
+</blockquote>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/JS-setTimeout-setInterval/" rel="tag"># -JS -setTimeout -setInterval</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/03/03/Cookie%E5%92%8CSession%E7%9A%84%E5%8C%BA%E5%88%AB/" rel="prev" title="Cookie和Session的区别">
+      <i class="fa fa-chevron-left"></i> Cookie和Session的区别
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-              目前共计 5 个标签
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/JS-setTimeout-setInterval/" style="font-size: 12px; color: #ccc">-JS -setTimeout -setInterval</a> <a href="/tags/Markdown/" style="font-size: 12px; color: #ccc">-Markdown</a> <a href="/tags/Cookie-Session/" style="font-size: 12px; color: #ccc">Cookie-Session</a> <a href="/tags/Mysql/" style="font-size: 12px; color: #ccc">Mysql</a> <a href="/tags/Spring-Boot/" style="font-size: 12px; color: #ccc">Spring Boot</a>
-            </div>
-          </div>
-        
-      </div>
-      
-      
-      
-    </div>
-    
-
-    
-    
-    
   </div>
 
 
@@ -277,6 +360,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#setTimeout和setInterval的使用及区别"><span class="nav-number">1.</span> <span class="nav-text">setTimeout和setInterval的使用及区别</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#setTimeout"><span class="nav-number">1.1.</span> <span class="nav-text">setTimeout</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#setInterval"><span class="nav-number">1.2.</span> <span class="nav-text">setInterval</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#两者联系与区别"><span class="nav-number">1.3.</span> <span class="nav-text">两者联系与区别</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
